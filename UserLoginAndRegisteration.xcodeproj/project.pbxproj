@@ -14,6 +14,9 @@
 		43BAA9451F115D59005CF9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BAA9431F115D59005CF9CD /* LaunchScreen.storyboard */; };
 		43BAA9501F115D5A005CF9CD /* UserLoginAndRegisterationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAA94F1F115D5A005CF9CD /* UserLoginAndRegisterationTests.swift */; };
 		43BAA95B1F115D5A005CF9CD /* UserLoginAndRegisterationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAA95A1F115D5A005CF9CD /* UserLoginAndRegisterationUITests.swift */; };
+		43BAA9691F127BE1005CF9CD /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAA9681F127BE0005CF9CD /* RegisterPageViewController.swift */; };
+		43BAA96B1F13A253005CF9CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAA96A1F13A252005CF9CD /* LoginViewController.swift */; };
+		43BAA96D1F13CB02005CF9CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43BAA96C1F13CB02005CF9CD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		43BAA9561F115D5A005CF9CD /* UserLoginAndRegisterationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLoginAndRegisterationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BAA95A1F115D5A005CF9CD /* UserLoginAndRegisterationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegisterationUITests.swift; sourceTree = "<group>"; };
 		43BAA95C1F115D5A005CF9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BAA9681F127BE0005CF9CD /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		43BAA96A1F13A252005CF9CD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43BAA96C1F13CB02005CF9CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/peggylai/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				43BAA9411F115D59005CF9CD /* Assets.xcassets */,
 				43BAA9431F115D59005CF9CD /* LaunchScreen.storyboard */,
 				43BAA9461F115D59005CF9CD /* Info.plist */,
+				43BAA9681F127BE0005CF9CD /* RegisterPageViewController.swift */,
+				43BAA96A1F13A252005CF9CD /* LoginViewController.swift */,
+				43BAA96C1F13CB02005CF9CD /* GoogleService-Info.plist */,
 			);
 			path = UserLoginAndRegisteration;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BAA9451F115D59005CF9CD /* LaunchScreen.storyboard in Resources */,
+				43BAA96D1F13CB02005CF9CD /* GoogleService-Info.plist in Resources */,
 				43BAA9421F115D59005CF9CD /* Assets.xcassets in Resources */,
 				43BAA9401F115D59005CF9CD /* Main.storyboard in Resources */,
 			);
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BAA96B1F13A253005CF9CD /* LoginViewController.swift in Sources */,
 				43BAA93D1F115D59005CF9CD /* ViewController.swift in Sources */,
 				43BAA93B1F115D59005CF9CD /* AppDelegate.swift in Sources */,
+				43BAA9691F127BE1005CF9CD /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
